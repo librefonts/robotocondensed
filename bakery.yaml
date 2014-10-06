@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [RobotoCondensed-BoldItalic.ttf.ttx, RobotoCondensed-LightItalic.ttf.ttx,
+  RobotoCondensed-Regular.ttf.ttx, RobotoCondensed-Bold.ttf.ttx, RobotoCondensed-Italic.ttf.ttx,
+  RobotoCondensed-Light.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

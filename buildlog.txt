@@ -1,0 +1,995 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/robotocondensed/METADATA.json /home/travis/build/fontdirectory/robotocondensed/builds/build
+$ cp -a /home/travis/build/fontdirectory/robotocondensed/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/robotocondensed/builds/build
+$ cp -a RobotoCondensed-BoldItalic.ttf.ttx RobotoCondensed-LightItalic.ttf.ttx RobotoCondensed-Regular.ttf.ttx RobotoCondensed-Bold.ttf.ttx RobotoCondensed-Italic.ttf.ttx RobotoCondensed-Light.ttf.ttx RobotoCondensed-BoldItalic.ttf._h_e_a_d.ttx RobotoCondensed-BoldItalic.ttf.G_P_O_S_.ttx RobotoCondensed-BoldItalic.ttf._g_l_y_f.ttx RobotoCondensed-BoldItalic.ttf.GlyphOrder.ttx RobotoCondensed-BoldItalic.ttf._m_a_x_p.ttx RobotoCondensed-BoldItalic.ttf._c_v_t.ttx RobotoCondensed-BoldItalic.ttf._h_h_e_a.ttx RobotoCondensed-BoldItalic.ttf.G_S_U_B_.ttx RobotoCondensed-BoldItalic.ttf._h_m_t_x.ttx RobotoCondensed-BoldItalic.ttf._g_a_s_p.ttx RobotoCondensed-BoldItalic.ttf._f_p_g_m.ttx RobotoCondensed-BoldItalic.ttf.O_S_2f_2.ttx RobotoCondensed-BoldItalic.ttf._n_a_m_e.ttx RobotoCondensed-BoldItalic.ttf._c_m_a_p.ttx RobotoCondensed-BoldItalic.ttf._p_o_s_t.ttx RobotoCondensed-BoldItalic.ttf._p_r_e_p.ttx RobotoCondensed-BoldItalic.ttf.L_T_S_H_.ttx RobotoCondensed-BoldItalic.ttf._l_o_c_a.ttx RobotoCondensed-LightItalic.ttf._n_a_m_e.ttx RobotoCondensed-LightItalic.ttf.L_T_S_H_.ttx RobotoCondensed-LightItalic.ttf.GlyphOrder.ttx RobotoCondensed-LightItalic.ttf._m_a_x_p.ttx RobotoCondensed-LightItalic.ttf._c_m_a_p.ttx RobotoCondensed-LightItalic.ttf.O_S_2f_2.ttx RobotoCondensed-LightItalic.ttf._p_r_e_p.ttx RobotoCondensed-LightItalic.ttf._g_a_s_p.ttx RobotoCondensed-LightItalic.ttf._l_o_c_a.ttx RobotoCondensed-LightItalic.ttf._h_e_a_d.ttx RobotoCondensed-LightItalic.ttf.G_S_U_B_.ttx RobotoCondensed-LightItalic.ttf._f_p_g_m.ttx RobotoCondensed-LightItalic.ttf._c_v_t.ttx RobotoCondensed-LightItalic.ttf._h_m_t_x.ttx RobotoCondensed-LightItalic.ttf._p_o_s_t.ttx RobotoCondensed-LightItalic.ttf.G_P_O_S_.ttx RobotoCondensed-LightItalic.ttf._g_l_y_f.ttx RobotoCondensed-LightItalic.ttf._h_h_e_a.ttx RobotoCondensed-Regular.ttf.L_T_S_H_.ttx RobotoCondensed-Regular.ttf._c_m_a_p.ttx RobotoCondensed-Regular.ttf._h_e_a_d.ttx RobotoCondensed-Regular.ttf._p_o_s_t.ttx RobotoCondensed-Regular.ttf.G_P_O_S_.ttx RobotoCondensed-Regular.ttf._c_v_t.ttx RobotoCondensed-Regular.ttf._h_m_t_x.ttx RobotoCondensed-Regular.ttf._m_a_x_p.ttx RobotoCondensed-Regular.ttf._n_a_m_e.ttx RobotoCondensed-Regular.ttf.GlyphOrder.ttx RobotoCondensed-Regular.ttf._g_l_y_f.ttx RobotoCondensed-Regular.ttf._f_p_g_m.ttx RobotoCondensed-Regular.ttf._l_o_c_a.ttx RobotoCondensed-Regular.ttf.G_S_U_B_.ttx RobotoCondensed-Regular.ttf._p_r_e_p.ttx RobotoCondensed-Regular.ttf.O_S_2f_2.ttx RobotoCondensed-Regular.ttf._h_h_e_a.ttx RobotoCondensed-Regular.ttf._g_a_s_p.ttx RobotoCondensed-Bold.ttf._p_r_e_p.ttx RobotoCondensed-Bold.ttf._h_h_e_a.ttx RobotoCondensed-Bold.ttf.L_T_S_H_.ttx RobotoCondensed-Bold.ttf.G_S_U_B_.ttx RobotoCondensed-Bold.ttf.O_S_2f_2.ttx RobotoCondensed-Bold.ttf._m_a_x_p.ttx RobotoCondensed-Bold.ttf.G_P_O_S_.ttx RobotoCondensed-Bold.ttf.GlyphOrder.ttx RobotoCondensed-Bold.ttf._c_v_t.ttx RobotoCondensed-Bold.ttf._g_a_s_p.ttx RobotoCondensed-Bold.ttf._f_p_g_m.ttx RobotoCondensed-Bold.ttf._c_m_a_p.ttx RobotoCondensed-Bold.ttf._g_l_y_f.ttx RobotoCondensed-Bold.ttf._h_m_t_x.ttx RobotoCondensed-Bold.ttf._p_o_s_t.ttx RobotoCondensed-Bold.ttf._l_o_c_a.ttx RobotoCondensed-Bold.ttf._h_e_a_d.ttx RobotoCondensed-Bold.ttf._n_a_m_e.ttx RobotoCondensed-Italic.ttf.G_S_U_B_.ttx RobotoCondensed-Italic.ttf._p_o_s_t.ttx RobotoCondensed-Italic.ttf.L_T_S_H_.ttx RobotoCondensed-Italic.ttf._c_m_a_p.ttx RobotoCondensed-Italic.ttf._g_a_s_p.ttx RobotoCondensed-Italic.ttf.GlyphOrder.ttx RobotoCondensed-Italic.ttf._l_o_c_a.ttx RobotoCondensed-Italic.ttf.O_S_2f_2.ttx RobotoCondensed-Italic.ttf._n_a_m_e.ttx RobotoCondensed-Italic.ttf._h_m_t_x.ttx RobotoCondensed-Italic.ttf._f_p_g_m.ttx RobotoCondensed-Italic.ttf._h_h_e_a.ttx RobotoCondensed-Italic.ttf._h_e_a_d.ttx RobotoCondensed-Italic.ttf._g_l_y_f.ttx RobotoCondensed-Italic.ttf._m_a_x_p.ttx RobotoCondensed-Italic.ttf._p_r_e_p.ttx RobotoCondensed-Italic.ttf.G_P_O_S_.ttx RobotoCondensed-Italic.ttf._c_v_t.ttx RobotoCondensed-Light.ttf._n_a_m_e.ttx RobotoCondensed-Light.ttf.L_T_S_H_.ttx RobotoCondensed-Light.ttf._g_l_y_f.ttx RobotoCondensed-Light.ttf._h_h_e_a.ttx RobotoCondensed-Light.ttf._p_o_s_t.ttx RobotoCondensed-Light.ttf.O_S_2f_2.ttx RobotoCondensed-Light.ttf.G_P_O_S_.ttx RobotoCondensed-Light.ttf._g_a_s_p.ttx RobotoCondensed-Light.ttf.GlyphOrder.ttx RobotoCondensed-Light.ttf._h_e_a_d.ttx RobotoCondensed-Light.ttf._f_p_g_m.ttx RobotoCondensed-Light.ttf._h_m_t_x.ttx RobotoCondensed-Light.ttf._l_o_c_a.ttx RobotoCondensed-Light.ttf._c_m_a_p.ttx RobotoCondensed-Light.ttf.G_S_U_B_.ttx RobotoCondensed-Light.ttf._p_r_e_p.ttx RobotoCondensed-Light.ttf._c_v_t.ttx RobotoCondensed-Light.ttf._m_a_x_p.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-LightItalic.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Regular.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Bold.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Italic.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Light.ttf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): FAIL
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+$ fontbakery-check.py upstream-ttx RobotoCondensed-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx RobotoCondensed-LightItalic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-LightItalic.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensedLight-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx RobotoCondensed-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Regular.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx RobotoCondensed-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Bold.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx RobotoCondensed-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Italic.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx RobotoCondensed-Light.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Light.ttf.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensedLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/robotocondensed/builds/build /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Italic.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensedLight-Regular.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Regular.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Bold.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-BoldItalic.ttx /home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensedLight-Italic.ttx
+Compiling "/home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Italic.ttx" to "/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensedLight-Regular.ttx" to "/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Regular.ttx" to "/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-Bold.ttx" to "/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensed-BoldItalic.ttx" to "/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/robotocondensed/builds/build/sources/RobotoCondensedLight-Italic.ttx" to "/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+### Test RobotoCondensed-Italic.ttf
+$ fontbakery-check.py result RobotoCondensed-Italic.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+Parameter              RobotoCondensed-Bold.ttf    RobotoCondensed-Italic.ttf    RobotoCondensed-BoldItalic.ttf    RobotoCondensedLight-Regular.ttf    RobotoCondensedLight-Italic.ttf    RobotoCondensed-Regular.ttf    
+ymax                   2171                        2151                          2148                              2146                                2146                               2151                           
+hhea.ascent            2171                        2171                          2171                              2171                                2171                               2171                           
+OS/2.sTypoAscender     2171                        2171                          2171                              2171                                2171                               2171                           
+OS/2.usWinAscent       2171                        2171                          2171                              2171                                2171                               2171                           
+ymin                   -555                        -555                          -555                              -555                                -555                               -555                           
+hhea.descent           -555                        -555                          -555                              -555                                -555                               -555                           
+OS/2.sTypoDescender    -555                        -555                          -555                              -555                                -555                               -555                           
+OS/2.usWinDescent      555                         555                           555                               555                                 555                                555                            
+hhea.lineGap           0                           0                             0                                 0                                   0                                  0                              
+OS/2.sTypoLineGap      0                           0                             0                                 0                                   0                                  0                              
+hhea total             2726                        2726                          2726                              2726                                2726                               2726                           
+typo total             2726                        2726                          2726                              2726                                2726                               2726                           
+win total              2726                        2726                          2726                              2726                                2726                               2726                           
+UPM:Heights            2048:2726                   2048:2706                     2048:2703                         2048:2701                           2048:2701                          2048:2706                      
+UPM:Heights %          133 %                       132 %                         131 %                             131 %                               131 %                              132 %                          
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+### Optimize TTF RobotoCondensed-Italic.ttf
+$ ls -l 'RobotoCondensed-Italic.ttf'* # look at the size savings of that subset process
+RobotoCondensed-Italic.ttf.opt: 134440 bytes
+RobotoCondensed-Italic.ttf: 145740 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf.opt /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+### Autohint TTFs (ttfautohint) RobotoCondensed-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf '/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf: 134440 bytes
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.autohint.ttf: 123364 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.autohint.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+### Subset TTFs (pyftsubset) RobotoCondensed-Italic.ttf
+$ pyftsubset RobotoCondensed-Italic.latin
+$ pyftsubset RobotoCondensed-Italic.menu
+spaceWidth is    436
+nbspWidth is     436
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Italic.ttf
+### Test RobotoCondensedLight-Regular.ttf
+$ fontbakery-check.py result RobotoCondensedLight-Regular.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+### Optimize TTF RobotoCondensedLight-Regular.ttf
+$ ls -l 'RobotoCondensedLight-Regular.ttf'* # look at the size savings of that subset process
+RobotoCondensedLight-Regular.ttf.opt: 131400 bytes
+RobotoCondensedLight-Regular.ttf: 142660 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf.opt /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+### Autohint TTFs (ttfautohint) RobotoCondensedLight-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf '/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf: 131400 bytes
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.autohint.ttf: 123592 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.autohint.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+### Subset TTFs (pyftsubset) RobotoCondensedLight-Regular.ttf
+$ pyftsubset RobotoCondensedLight-Regular.latin
+$ pyftsubset RobotoCondensedLight-Regular.menu
+spaceWidth is    434
+nbspWidth is     434
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Regular.ttf
+### Test RobotoCondensed-Regular.ttf
+$ fontbakery-check.py result RobotoCondensed-Regular.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+### Optimize TTF RobotoCondensed-Regular.ttf
+$ ls -l 'RobotoCondensed-Regular.ttf'* # look at the size savings of that subset process
+RobotoCondensed-Regular.ttf.opt: 130420 bytes
+RobotoCondensed-Regular.ttf: 141724 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf.opt /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+### Autohint TTFs (ttfautohint) RobotoCondensed-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf '/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf: 130420 bytes
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.autohint.ttf: 118200 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.autohint.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+### Subset TTFs (pyftsubset) RobotoCondensed-Regular.ttf
+$ pyftsubset RobotoCondensed-Regular.latin
+$ pyftsubset RobotoCondensed-Regular.menu
+spaceWidth is    446
+nbspWidth is     446
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Regular.ttf
+### Test RobotoCondensed-Bold.ttf
+$ fontbakery-check.py result RobotoCondensed-Bold.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+### Optimize TTF RobotoCondensed-Bold.ttf
+$ ls -l 'RobotoCondensed-Bold.ttf'* # look at the size savings of that subset process
+RobotoCondensed-Bold.ttf.opt: 131856 bytes
+RobotoCondensed-Bold.ttf: 143128 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf.opt /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+### Autohint TTFs (ttfautohint) RobotoCondensed-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf '/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf: 131856 bytes
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.autohint.ttf: 121096 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.autohint.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+### Subset TTFs (pyftsubset) RobotoCondensed-Bold.ttf
+$ pyftsubset RobotoCondensed-Bold.latin
+$ pyftsubset RobotoCondensed-Bold.menu
+spaceWidth is    449
+nbspWidth is     449
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-Bold.ttf
+### Test RobotoCondensed-BoldItalic.ttf
+$ fontbakery-check.py result RobotoCondensed-BoldItalic.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+### Optimize TTF RobotoCondensed-BoldItalic.ttf
+$ ls -l 'RobotoCondensed-BoldItalic.ttf'* # look at the size savings of that subset process
+RobotoCondensed-BoldItalic.ttf.opt: 135300 bytes
+RobotoCondensed-BoldItalic.ttf: 146600 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf.opt /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) RobotoCondensed-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf '/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf: 135300 bytes
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.autohint.ttf: 125052 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+### Subset TTFs (pyftsubset) RobotoCondensed-BoldItalic.ttf
+$ pyftsubset RobotoCondensed-BoldItalic.latin
+$ pyftsubset RobotoCondensed-BoldItalic.menu
+spaceWidth is    439
+nbspWidth is     439
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensed-BoldItalic.ttf
+### Test RobotoCondensedLight-Italic.ttf
+$ fontbakery-check.py result RobotoCondensedLight-Italic.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf.fix /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+### Optimize TTF RobotoCondensedLight-Italic.ttf
+$ ls -l 'RobotoCondensedLight-Italic.ttf'* # look at the size savings of that subset process
+RobotoCondensedLight-Italic.ttf.opt: 135020 bytes
+RobotoCondensedLight-Italic.ttf: 146324 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf.opt /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+### Autohint TTFs (ttfautohint) RobotoCondensedLight-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf '/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf: 135020 bytes
+/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.autohint.ttf: 127360 bytes
+$ mv /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.autohint.ttf /home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+### Subset TTFs (pyftsubset) RobotoCondensedLight-Italic.ttf
+$ pyftsubset RobotoCondensedLight-Italic.latin
+$ pyftsubset RobotoCondensedLight-Italic.menu
+spaceWidth is    424
+nbspWidth is     424
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/robotocondensed/builds/build/RobotoCondensedLight-Italic.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/robotocondensed/builds/build
+{} exists
+Designer's name from font is: Google
+Original size: 123592\nGzip size: 67575
+Family Name: Roboto Condensed
+PS Name: RobotoCondensed-Bold
+Full Name: Roboto Condensed Bold
+Style: normal
+Weight: 700
+Filename: RobotoCondensed-Bold.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Condensed
+PS Name: RobotoCondensed-Italic
+Full Name: Roboto Condensed Italic
+Style: italic
+Weight: 400
+Filename: RobotoCondensed-Italic.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Condensed
+PS Name: RobotoCondensed-BoldItalic
+Full Name: Roboto Condensed Bold Italic
+Style: italic
+Weight: 700
+Filename: RobotoCondensed-BoldItalic.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Condensed
+PS Name: RobotoCondensed-Light
+Full Name: Roboto Condensed Light
+Style: normal
+Weight: 300
+Filename: RobotoCondensedLight-Regular.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Condensed
+PS Name: RobotoCondensed-LightItalic
+Full Name: Roboto Condensed Light Italic
+Style: italic
+Weight: 300
+Filename: RobotoCondensedLight-Italic.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Condensed
+PS Name: RobotoCondensed-Regular
+Full Name: Roboto Condensed Regular
+Style: normal
+Weight: 400
+Filename: RobotoCondensed-Regular.ttf
+Copyright: Font data copyright Google 2012
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_cyrillic(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_cyrillic_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_greek(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_greek_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_vietnamese(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): ERROR
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): ERROR
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): ERROR
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): ERROR
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): OK
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): ERROR
+{
+  "name": "Roboto Condensed", 
+  "designer": "Christian Robertson", 
+  "license": "Apache2", 
+  "visibility": "Sandbox", 
+  "category": "Sans Serif", 
+  "size": 91270, 
+  "fonts": [
+    {
+      "name": "Roboto Condensed", 
+      "postScriptName": "RobotoCondensed-Bold", 
+      "fullName": "Roboto Condensed Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "RobotoCondensed-Bold.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Condensed", 
+      "postScriptName": "RobotoCondensed-Italic", 
+      "fullName": "Roboto Condensed Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "RobotoCondensed-Italic.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Condensed", 
+      "postScriptName": "RobotoCondensed-BoldItalic", 
+      "fullName": "Roboto Condensed Bold Italic", 
+      "style": "italic", 
+      "weight": 700, 
+      "filename": "RobotoCondensed-BoldItalic.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Condensed", 
+      "postScriptName": "RobotoCondensed-Light", 
+      "fullName": "Roboto Condensed Light", 
+      "style": "normal", 
+      "weight": 300, 
+      "filename": "RobotoCondensedLight-Regular.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Condensed", 
+      "postScriptName": "RobotoCondensed-LightItalic", 
+      "fullName": "Roboto Condensed Light Italic", 
+      "style": "italic", 
+      "weight": 300, 
+      "filename": "RobotoCondensedLight-Italic.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Condensed", 
+      "postScriptName": "RobotoCondensed-Regular", 
+      "fullName": "Roboto Condensed Regular", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "RobotoCondensed-Regular.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2012-06-26"
+}
